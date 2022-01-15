@@ -1,15 +1,21 @@
 
-# Using the repository
+# About
+
+This repository is responsible for hosting the latest [go-c8y-cli](https://goc8ycli.netlify.app/) Debian package by hosting it via github pages.
+
+This repository can be used to install the latest go-c8y-cli version via the APT package manager on either Debian or Ubuntu.
+
+# Configuring the repository on Debian or Ubuntu
 
 1. Add the repository gpg key
 
-    ```sh
-    curl https://reubenmiller.github.com/c8y-debian | sudo apt-key add -
+    ```bash
+    curl https://reubenmiller.github.io/c8y-debian/PUBLIC.KEY | sudo apt-key add -
     ```
 
 2. Configure the repository
 
-    ```sh
+    ```bash
     sudo sh -c "echo 'deb http://reubenmiller.github.io/c8y-debian stable main' >> /etc/apt/sources.list"
     ```
 
@@ -20,13 +26,23 @@
     sudo apt-get install go-c8y-cli
     ```
 
-# Publish a package to the repository
+# Maintainers
+
+## Publish a package to the repository
+
+To publish the latest version of go-c8y-cli to this repository it requires the following dependencies
+
+* gh (github cli tool)
+* jq
+* reprorepo
+* gnupg
+* GPG private key used to sign the repository
 
 1. Make sure you have the gpg signing key (This can only be done via a maintainer)
 
 2. Run the build script. This will commit any changes to the repository if there is a newer go-c8y-cli version
 
-    ```sh
+    ```bash
     ./scripts/build.sh
     ```
 
