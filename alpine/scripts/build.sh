@@ -30,7 +30,7 @@ function index_packages () {
     apk index -o "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE"/*.apk
     cp "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE/APKINDEX.tar.gz"
 
-    abuild-sign -k "$SIGN_KEY" /repo/x86_64/APKINDEX.tar.gz
+    abuild-sign -k "$SIGN_KEY" "$CURRENT_BASE/APKINDEX.tar.gz"
 }
 
 index_packages "amd64" "x86_64"
