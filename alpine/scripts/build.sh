@@ -6,7 +6,7 @@
 
 REPO=reubenmiller/go-c8y-cli
 
-SIGN_KEY=alpine-devel@example.com-5629d7e6.rsa
+SIGN_KEY=${1:-alpine-devel@example.com-5629d7e6.rsa}
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
