@@ -1,0 +1,55 @@
+Origin: reubenmiller.github.io/c8y-debian
+Label: reubenmiller.github.io/c8y-debian
+Codename: go-c8y-cli
+Date: Sat, 15 Jan 2022 21:25:09 UTC
+Architectures: amd64 arm64 armhf armel i386
+Components: main
+Description: Unofficial Cumulocity go-c8y-cli repository
+MD5Sum:
+ 46038b9aef56adafce3a4162552adebf 512 main/binary-amd64/Packages
+ 5365849adc153fa9fb5a33e9d3fbedd6 390 main/binary-amd64/Packages.gz
+ c2ea3be40b7323d89eb43ab58d0ba75a 176 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 4c42210fc8e1beb2a90beeaa78612365 176 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ ba2b0a3890c28c059ced52d4e1a94752 176 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armel/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armel/Packages.gz
+ 4d01f332bc0376adff38f7c439683d22 176 main/binary-armel/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ db3a8bfcb3b252892eac8187243fe0d8 175 main/binary-i386/Release
+SHA1:
+ 42879c4ccca82f9366d24a33593562d9032b5366 512 main/binary-amd64/Packages
+ 8ae700e3f967aae860468b3d642891c54fba20c9 390 main/binary-amd64/Packages.gz
+ 2fc860e45121ba1c4f362c3e04300aa106d2a7b5 176 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ eddbc63fb29dc288c72737211f574a71d1b48668 176 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 29392bf9c47c1d3210719fd916ee1813240d1040 176 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armel/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armel/Packages.gz
+ 1b85c3831768a44da8be83dc203cf4300e76acaa 176 main/binary-armel/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 7f265a3d506d08865fcc7ba71044e9184d20cc17 175 main/binary-i386/Release
+SHA256:
+ 8266529a2da759499342b9de81a5d2541754c347990c75693423bd5ebde4c7cf 512 main/binary-amd64/Packages
+ eee4d0e6e7a3133ffc26e8e705ff3c81aac78a65a5606cea5c627de4a4dc70e3 390 main/binary-amd64/Packages.gz
+ a14c6cc825eb871425284719d1870f96ff35891395683e5df4903629965696f7 176 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 58f48bb3415552ae01fe2807f78dd00b917f622169e787006ce982e12b619193 176 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ ed5ea3e523c432ad7ea53801fe57c1d08eaa21d77fb90ed6a9234e57ad482bee 176 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armel/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armel/Packages.gz
+ f63b28f66006b7c3d3a0b31a815250c69ede41d3b1ce111c8cbeeea47c293d22 176 main/binary-armel/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 647896e6c3310e2bda1b2860208ed3c475a464fe9e08ab23927cc91a2205f3c8 175 main/binary-i386/Release
