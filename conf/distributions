@@ -1,0 +1,7 @@
+Origin: reubenmiller.github.io/c8y-debian
+Label: reubenmiller.github.io/c8y-debian
+Codename: buster
+Architectures: amd64
+Components: main
+Description: Personal repository
+SignWith: 6CAF108CD5CAC5646BE053C2214DBC7D597839C8
