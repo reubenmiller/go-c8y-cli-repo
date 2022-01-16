@@ -25,6 +25,10 @@ index_packages () {
     CURRENT_BASE="$REPO_BASE/stable/main/$arch"
 
     mkdir -p "$CURRENT_BASE"
+
+    echo "Removing any older versions"
+    rm -f "$CURRENT_BASE/"*.apk
+
     cp "$INCOMING"/*"$filter"*.apk "$CURRENT_BASE/"
 
     # Rename apk file to match: go-c8y-cli_2.4.5_linux_386.apk =>  go-c8y-cli-2.4.5.apk
