@@ -13,13 +13,12 @@
     Then add the following contents to it and save the file.
 
     ```text title="/etc/yum.repos.d/go-c8y-cli.repo"
-    [Artifactory]
+    [go-c8y-cli]
     name=go-c8y-cli packages
     baseurl=https://reubenmiller.github.io/go-c8y-cli-repo/rpm/stable
     enabled=1
     gpgcheck=1
     gpgkey=https://reubenmiller.github.io/go-c8y-cli-repo/rpm/PUBLIC.KEY
-    repo_gpgcheck=1
     ```
 
 2. Update the repo then install/update `go-c8y-cli`

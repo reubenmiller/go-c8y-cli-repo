@@ -16,7 +16,7 @@ fi
 
 if [ ! -f ~/.rpmmacros ]; then
     echo "Configuring rpm settings"
-    echo "%_gpg_name Reuben Miller <reuben.d.miller@gmail.com>" > ~/.rpmmacros
+    echo "%_gpg_name Reuben Miller <reuben.d.miller@gmail.com>" > /etc/rpm/macros
 fi
 
 echo "Signing packages"

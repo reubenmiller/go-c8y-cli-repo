@@ -8,7 +8,7 @@ fi
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
 
-docker build -t "rpm" -f "$SCRIPT_DIR/Dockerfile" "$SCRIPT_DIR"
+docker build -t "rpm" -f "$SCRIPT_DIR/centos.dockerfile" "$SCRIPT_DIR"
 docker run \
     --rm \
     -it \
