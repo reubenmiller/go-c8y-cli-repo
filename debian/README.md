@@ -10,13 +10,13 @@ This repository can be used to install the latest go-c8y-cli version via the APT
 1. Add the repository gpg key
 
     ```bash
-    curl https://reubenmiller.github.io/c8y-debian/debian/PUBLIC.KEY | sudo apt-key add -
+    curl https://reubenmiller.github.io/go-c8y-cli-repo/debian/PUBLIC.KEY | sudo apt-key add -
     ```
 
 2. Configure the repository
 
     ```bash
-    sudo sh -c "echo 'deb http://reubenmiller.github.io/c8y-debian/debian stable main' >> /etc/apt/sources.list"
+    sudo sh -c "echo 'deb http://reubenmiller.github.io/go-c8y-cli-repo/debian stable main' >> /etc/apt/sources.list"
     ```
 
 3. Update the repo then install/update `go-c8y-cli`
