@@ -19,7 +19,7 @@ rm -Rf "$INCOMING"
 
 gh release download -R $REPO --pattern "*.apk" --dir "$INCOMING"
 
-function index_packages () {
+index_packages () {
     filter=$1
     arch=$2
     CURRENT_BASE="$REPO_BASE/stable/main/$arch"
