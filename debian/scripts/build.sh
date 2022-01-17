@@ -1,20 +1,16 @@
 #!/bin/bash
 
+if [[ -z "$GPG_PRIVATE_KEY" ]]; then
+    echo "Missing env variable: GPG_PRIVATE_KEY"
+    exit 1
+fi
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-
-INCOMING="${1:-$SCRIPT_DIR/../incoming}"
-
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
-REPO_CODENAME=stable
 
-if ! command -v reprepro; then
-    sudo apt-get update
-    sudo apt-get install -y reprepro
-fi
-
-if [ -d "$REPO_BASE" ]; then
-    echo "Removing existing packages"
-    reprepro --basedir "$REPO_BASE" --component main removematched $REPO_CODENAME "*"
-fi
-
-reprepro -V --basedir "$REPO_BASE" --component main includedeb $REPO_CODENAME "$INCOMING/"*.deb
+docker build -t "debian" -f "$SCRIPT_DIR/debian.dockerfile" "$SCRIPT_DIR"
+docker run \
+    --rm \
+    -v "$REPO_BASE:/repo" \
+    --env "GPG_PRIVATE_KEY=$GPG_PRIVATE_KEY" \
+    debian /repo/scripts/build-debian.sh
