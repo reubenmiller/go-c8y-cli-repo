@@ -45,7 +45,7 @@
     The following command requires you to already have `sudo` installed. If it is not then you will need to install it via apt.
 
     ```
-    sudo apt-get update && apt-get install -y sudo gnupg2 apt-transport-https
+    sudo apt-get update && apt-get install -y gnupg2 apt-transport-https
     ```
 
 2. Add the repository gpg key
