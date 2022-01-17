@@ -58,7 +58,9 @@ if [ -f "$LAST_PUBLISHED_SCRIPT" ]; then
 fi
 
 if [ -z "$VERSION" ]; then
+    echo "Checking latest release from $REPO"
     VERSION=$( gh release view -R "$REPO" --json tagName --jq ".tagName" )
+    echo "Latest release is: $VERSION"
 fi
 
 
