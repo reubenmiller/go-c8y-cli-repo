@@ -119,6 +119,9 @@ commit_changes () {
                 echo "Setting CI/CD git config"
                 git config --global user.email "ci_cd@github.com"
                 git config --global user.name "ci_cd"
+            else
+                echo "Fixing folder ownership (when not in CI mode)"
+                sudo chown -R "$(whoami):$(whoami)" ./
             fi
 
             echo "Commit changes. version=$VERSION"
@@ -128,6 +131,15 @@ commit_changes () {
         else
             echo "DRY: Committing new release: $VERSION"
         fi
+    fi
+}
+
+fix_file_ownership () {
+    # Fix file ownership due to running build scripts under docker root
+    # Change the ownership of all files in the repo to the current user
+    if ! declare -p CI >&/dev/null ; then
+        echo "Fixing folder ownership (when not in CI mode)"
+        sudo chown -R "$(whoami):$(whoami)" ./
     fi
 }
 
@@ -141,4 +153,8 @@ run_script "apk" "./alpine/scripts/build.sh"
 run_script "deb" "./debian/scripts/build.sh" "*armv7*.deb"
 run_script "rpm" "./rpm/scripts/build.sh"
 
+fix_file_ownership
+
 commit_changes
+
+popd > /dev/null
