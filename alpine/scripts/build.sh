@@ -15,7 +15,6 @@ REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
 docker build -t "apk" -f "$SCRIPT_DIR/alpine.dockerfile" "$SCRIPT_DIR"
 docker run \
     --rm \
-    -it \
     -v "$REPO_BASE:/repo" \
     --env "RSA_PRIVATE_KEY=$RSA_PRIVATE_KEY" \
     apk /repo/scripts/build-apk.sh
