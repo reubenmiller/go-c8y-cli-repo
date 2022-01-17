@@ -1,11 +1,7 @@
 
-# About
+# Setup repository
 
-This repository is responsible for hosting the latest [go-c8y-cli](https://goc8ycli.netlify.app/) Debian package by hosting it via github pages.
-
-This repository can be used to install the latest go-c8y-cli version via the APT package manager on either Debian or Ubuntu.
-
-# Configuring the repository on Debian or Ubuntu
+## Debian or Ubuntu
 
 1. Add the repository gpg key
 
