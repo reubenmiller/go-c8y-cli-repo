@@ -1,21 +1,66 @@
 
 # Setup repository
 
-## Debian or Ubuntu
+## Debian >=9 / Ubuntu >=16.04
 
-1. Add the repository gpg key
+1. Install package manager dependencies
+
+    ```
+    apt-get update && apt-get install -y sudo curl gnupg2 apt-transport-https
+    ```
+
+2. Add the repository gpg key
+
+    ```bash
+    curl https://reubenmiller.github.io/go-c8y-cli-repo/debian/PUBLIC.KEY | gpg --dearmor | sudo tee /usr/share/keyrings/go-c8y-cli-archive-keyring.gpg >/dev/null
+    ```
+
+    **Note**
+    
+    This step does not make use of `apt-key` as it has been deprecated. The gpg key is stored in an individual store only related to the go-c8y-cli repository, and it is linked via the apt.source settings using the "signed-by" property.
+
+2. Configure the repository
+
+    ```bash
+    sudo sh -c "echo 'deb [signed-by=/usr/share/keyrings/go-c8y-cli-archive-keyring.gpg] http://reubenmiller.github.io/go-c8y-cli-repo/debian stable main' >> /etc/apt/sources.list"
+    ```
+
+3. Update the repo then install/update `go-c8y-cli`
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install go-c8y-cli
+    ```
+
+
+4. Update the repo then install/update `go-c8y-cli`
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install go-c8y-cli
+    ```
+
+## Debian <= 8 or Ubuntu <= 14.04
+
+1. Install package manager dependencies
+
+    ```
+    apt-get update && apt-get install -y sudo curl gnupg2 apt-transport-https
+    ```
+
+2. Add the repository gpg key
 
     ```bash
     curl https://reubenmiller.github.io/go-c8y-cli-repo/debian/PUBLIC.KEY | sudo apt-key add -
     ```
 
-2. Configure the repository
+3. Configure the repository
 
     ```bash
     sudo sh -c "echo 'deb http://reubenmiller.github.io/go-c8y-cli-repo/debian stable main' >> /etc/apt/sources.list"
     ```
 
-3. Update the repo then install/update `go-c8y-cli`
+4. Update the repo then install/update `go-c8y-cli`
 
     ```bash
     sudo apt-get update
