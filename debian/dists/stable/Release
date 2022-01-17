@@ -1,7 +1,7 @@
 Origin: reubenmiller.github.io/c8y-debian
 Label: reubenmiller.github.io/c8y-debian
 Codename: stable
-Date: Mon, 17 Jan 2022 07:16:48 UTC
+Date: Mon, 17 Jan 2022 08:18:58 UTC
 Architectures: amd64 arm64 armhf armel i386
 Components: main
 Description: Unofficial Cumulocity go-c8y-cli repository

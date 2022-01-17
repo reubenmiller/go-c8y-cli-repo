@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: reubenmiller.github.io/c8y-debian
 Label: reubenmiller.github.io/c8y-debian
 Codename: stable
-Date: Mon, 17 Jan 2022 07:16:48 UTC
+Date: Mon, 17 Jan 2022 08:18:58 UTC
 Architectures: amd64 arm64 armhf armel i386
 Components: main
 Description: Unofficial Cumulocity go-c8y-cli repository
@@ -58,17 +58,17 @@ SHA256:
  647896e6c3310e2bda1b2860208ed3c475a464fe9e08ab23927cc91a2205f3c8 175 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbK8QjNXKxWRr4FPCIU28fVl4OcgFAmHlF+AACgkQIU28fVl4
-OcijOQ//bRMhAURmHwxEp7xLDuKglu7ETBDszTH+Q7a/sm1cD6WxiyubpWlIExei
-8bvUgY1Yo49iFr9NAu9OZ32Ds6YUOoqgMfqCtDdPo1RnzPQjMKYPI+s9S+Q5wgrv
-aWCjU+KrTo9zkG7+RzwZVijr2xcc7SrlL0uHdp+pNV2juteyvwTVcZ84LuGgAV6d
-iwQmNeNaMnKZZ2b69PoSUYP1200QqDezcsszNm3EdZAxC53vbRmvRuEiSn3v9Vn3
-ONSCFaVe8kQNlJSsF2Cb9kur1qS/+gcvqijfC825yK3ha/MeqiztvLfGqhxMh5Qw
-1iy8pSuGkGfp6JAB64tuv8dq6gocJTggJ12dutTqTl4Q98h6UvgxY8ITZ0NYTWR0
-w8o845c8BCF9jR2d0ZX2imrhrmWhQw3NyOaQduR8i56K6VMzf+MZ8WcbFzHl18T2
-2ag7+3vKlmQrBZlwQjBll9iyQ9F2Wdp87OI4+C/LkSQ3UO9b4xh1MyY6d+S/cuFZ
-Sol10+8OKG6lTtEzb/qu5w++mgji3fCYafL51afEf8D/y/a0LblIMlDVKn6/kJkA
-XPXO1Wml/JQ9/wJ+01GtHAmvJtNNibNIq3eMncNNa3Thzq13lxHjBotkkO2vGb3s
-mPdsUKrP6gCjinRxfQQvdrx8znWE4WxWCLiGEu+QYJxrbq1PjeA=
-=4LSO
+iQIzBAEBCgAdFiEEbK8QjNXKxWRr4FPCIU28fVl4OcgFAmHlJnMACgkQIU28fVl4
+Ocj/zBAAn/39jqGu7c/bQEcsZWEXfrd5yOjCgxRBTfiDjP5rcH5d7okRHf0NEmAQ
+eZhSJl5AUhoEoBMcOp5xZJyAHRstqBf1+e+rPOBn2v+HWiTOWvNFQAfJigwydxVu
+FUh/sds6bihDSDHBM6UZuYjwsQCaLjMx9/pcLQ26bJAcAvWY+tv4pgPTkaAi4asg
+SX8wh/ZBcQxly0XH0KAIhhvUS/6F9Y8cWSSxH3xXrw4df9BiwoYkJr+Wrxepnf5e
+7STxbRUIABqrXBpRt2xzeOPtqd4bxI84R8Fe2TtIWPnKAUzgaqk/l6ZNmWLO7a+y
+1ovizwKOPYUA9SF7S42/U3CRyJjJRhz3LybqcXyNNRw70v3aeuReeIeLSzF8NQOH
+cU1F/YiqGZbgN3Uu7KJPmzmOI5ieN28CAefxZDcZNGayAu1/cJBDmoEugz7IMj++
+mp9C6IwHMMLmcUM7a6NgIXh4ETX5XFn19pyD4jMFHw/gFuB67/MN4ywM5o1fimPL
+Ej8Vw9SI+SR31U/W0gkjQENv9vH/Ibn/eP2wJtHfZIQcTILAhBngSj9kphad0zAE
+FSAStxGPXiNJTaSYx2Q1UCYbf/+GsPDClj6nWoXVZ53YPz/Q9K5h6/w+OkVpdiCM
+Zb0XVHWamW4/zelvaIaKd7j4KgFTWFDbuF2BWzMTZ4VCgs18Sb0=
+=78dT
 -----END PGP SIGNATURE-----
