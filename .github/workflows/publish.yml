@@ -19,7 +19,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - name: Build apk/deb/rpm repositories
         run: |
