@@ -6,7 +6,7 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
-INCOMING="$SCRIPT_DIR/incoming"
+INCOMING="${1:-$SCRIPT_DIR/../incoming}"
 
 RSA_KEY_FILE=/root/sign.rsa
 echo "$RSA_PRIVATE_KEY" | tr "," "\n" > "$RSA_KEY_FILE"
@@ -40,9 +40,3 @@ index_packages () {
 index_packages "amd64" "x86_64"
 index_packages "armv7" "armv7"
 index_packages "386" "x86"
-
-
-# stable main 
-# c8y-alpine/stable/main/x86_64/go-c8y-cli-2.4.5.apk
-# c8y-alpine/stable/main/armv7/go-c8y-cli-2.4.5.apk
-# c8y-alpine/stable/main/x86/go-c8y-cli-2.4.5.apk

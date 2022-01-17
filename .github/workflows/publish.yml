@@ -1,0 +1,24 @@
+name: publish
+on:
+  workflow_dispatch:
+    inputs:
+      cli_options:
+        description: 'Optional CLI arguments to be added to call'  
+        required: false
+        default: ''
+      tag:
+        description: 'Tag/Version to build. If left blank the latest will be used'  
+        required: false
+        default: ''
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - name: Build apk/deb/rpm repositories
+        run: |
+          ./build.sh apk deb rpm --tag "${{ github.event.inputs.tag }}" --commit ${{ github.event.inputs.cli_options }}

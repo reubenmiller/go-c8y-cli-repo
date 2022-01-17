@@ -12,7 +12,9 @@ if ! command -v reprepro; then
     sudo apt-get install -y reprepro
 fi
 
-echo "Removing any exising packages"
-rm -f "$REPO_BASE"/*.deb
+if [ -d "$REPO_BASE" ]; then
+    echo "Removing existing packages"
+    reprepro --basedir "$REPO_BASE" --component main removematched $REPO_CODENAME "*"
+fi
 
 reprepro -V --basedir "$REPO_BASE" --component main includedeb $REPO_CODENAME "$INCOMING/"*.deb

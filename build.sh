@@ -70,7 +70,7 @@ run_script () {
     incoming_dir="$( dirname "$script" )/../incoming"
 
     if [[ " ${TARGETS[*]} " =~ \ $package_type\  ]]; then
-        echo "Downloading *.$package_type artifacts from $REPO"
+        echo "Downloading *.$package_type artifacts from $REPO to $incoming_dir"
         find "$incoming_dir" -name "*.$package_type" -delete
         gh release download "$VERSION" -R "$REPO" --pattern "*.$package_type" --dir "$incoming_dir"
 

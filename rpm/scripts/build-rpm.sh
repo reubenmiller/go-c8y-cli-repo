@@ -5,7 +5,7 @@
 #
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-INCOMING="$SCRIPT_DIR/incoming"
+INCOMING="${1:-$SCRIPT_DIR/../incoming}"
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
 REPO_STABLE="$REPO_BASE/stable"
 
