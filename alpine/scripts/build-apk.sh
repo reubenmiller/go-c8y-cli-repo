@@ -8,7 +8,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_BASE=$( cd "$SCRIPT_DIR/.." && pwd )
 INCOMING="${1:-$SCRIPT_DIR/../incoming}"
 
-RSA_KEY_FILE=/root/sign.rsa
+RSA_KEY_FILE=/root/reuben.d.miller@gmail.com-61e3680b.rsa
 echo "$RSA_PRIVATE_KEY" | tr "," "\n" > "$RSA_KEY_FILE"
 
 index_packages () {
@@ -32,7 +32,7 @@ index_packages () {
     done
 
     apk index -o "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE"/*.apk
-    cp "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE/APKINDEX.tar.gz"
+    cp -f "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE/APKINDEX.tar.gz"
 
     abuild-sign -k "$RSA_KEY_FILE" "$CURRENT_BASE/APKINDEX.tar.gz"
 }

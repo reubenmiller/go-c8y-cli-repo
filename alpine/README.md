@@ -1,6 +1,8 @@
 
 # Setup repository
 
+## Alpine Linux
+
 1. Add the repository
 
     ```sh
@@ -16,9 +18,3 @@
     apk update
     apk add go-c8y-cli
     ```
-
-# Update repository with latest version
-
-```sh
-./alpine/scripts/build.sh /home/reubenmiller/reuben.d.miller\@gmail.com-61e3680b.rsa
-```
