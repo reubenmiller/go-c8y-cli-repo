@@ -114,6 +114,13 @@ commit_changes () {
     if ! git diff-index --quiet HEAD --; then
 
         if [[ "$COMMIT" =~ [Yy][Ee][Ss]|1|true ]]; then
+
+            if declare -p CI >&/dev/null ; then
+                echo "Setting CI/CD git config"
+                git config --global user.email "ci_cd@github.com"
+                git config --global user.name "ci_cd"
+            fi
+
             echo "Commit changes. version=$VERSION"
             git add --all
             git commit -m "Publishing new release: $VERSION"

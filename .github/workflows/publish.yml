@@ -1,4 +1,6 @@
 name: publish
+env:
+  CI: true
 on:
   workflow_dispatch:
     inputs:
