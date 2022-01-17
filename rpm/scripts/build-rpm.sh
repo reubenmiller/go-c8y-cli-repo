@@ -22,6 +22,11 @@ fi
 echo "Signing packages"
 rpm --addsign "$INCOMING"/*.rpm
 
+if [ -d "$REPO_STABLE" ]; then
+    # Remove older versions
+    find "$REPO_STABLE" -name "*.rpm" -delete
+fi
+
 cp "$INCOMING"/*.rpm "$REPO_STABLE"
 
 createrepo "$REPO_STABLE"
