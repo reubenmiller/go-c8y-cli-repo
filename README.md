@@ -24,3 +24,13 @@ The build script will download a release from the [go-c8y-cli repo](https://gith
 ```sh
 ./build.sh --tag v2.4.0
 ```
+
+## Troubleshooting
+
+### Error when pulling latest code into your checkout repo
+
+If you have a merge conflict due to conflicts with untracked files in the repo, then run the following git command to remove any untracked files in your checked out folder.
+
+```sh
+git clean -f
+```
