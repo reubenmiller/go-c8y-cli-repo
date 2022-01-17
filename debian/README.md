@@ -5,8 +5,12 @@
 
 1. Install package manager dependencies
 
+    **Note**
+    
+    The following command requires you to already have `sudo` installed. If it is not then you will need to install it via apt.
+
     ```
-    apt-get update && apt-get install -y sudo curl gnupg2 apt-transport-https
+    sudo apt-get update && apt-get install -y curl gnupg2 apt-transport-https
     ```
 
 2. Add the repository gpg key
@@ -36,8 +40,12 @@
 
 1. Install package manager dependencies
 
+    **Note**
+    
+    The following command requires you to already have `sudo` installed. If it is not then you will need to install it via apt.
+
     ```
-    apt-get update && apt-get install -y sudo curl gnupg2 apt-transport-https
+    sudo apt-get update && apt-get install -y sudo gnupg2 apt-transport-https
     ```
 
 2. Add the repository gpg key
