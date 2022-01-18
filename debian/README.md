@@ -57,7 +57,7 @@
 3. Configure the repository
 
     ```bash
-    sudo sh -c "echo 'deb http://reubenmiller.github.io/go-c8y-cli-repo/debian stable main' >> /etc/apt/sources.list"
+    sudo sh -c "echo 'deb https://reubenmiller.github.io/go-c8y-cli-repo/debian stable main' >> /etc/apt/sources.list"
     ```
 
 4. Update the repo then install/update `go-c8y-cli`
