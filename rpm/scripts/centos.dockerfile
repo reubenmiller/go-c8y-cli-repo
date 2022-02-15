@@ -1,6 +1,6 @@
-FROM centos:centos8.4.2105
+FROM quay.io/centos/centos:stream9
 
-RUN yum install -y dnf createrepo rpm-sign pinentry
+RUN dnf install -y createrepo rpm-sign pinentry
 ENV GPG_PRIVATE_KEY=
 VOLUME [ "/repo" ]
 

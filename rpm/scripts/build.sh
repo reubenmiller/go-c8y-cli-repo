@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 if [[ -z "$GPG_PRIVATE_KEY" ]]; then
     echo "Missing env variable: GPG_PRIVATE_KEY"
     exit 1

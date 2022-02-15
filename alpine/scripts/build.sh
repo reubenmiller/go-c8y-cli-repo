@@ -4,6 +4,8 @@
 # https://www.erianna.com/creating-a-alpine-linux-repository/
 #
 
+set -euo pipefail
+
 if [[ -z "$RSA_PRIVATE_KEY" ]]; then
     echo "Missing env variable: RSA_PRIVATE_KEY"
     exit 1
