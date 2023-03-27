@@ -1,5 +1,5 @@
 Package: go-c8y-cli
-Version: 2.22.2
+Version: 2.22.3
 Architecture: armel
 Maintainer: Reuben Miller <reuben.d.miller@gmail.com>
 Installed-Size: 19219
@@ -7,10 +7,10 @@ Suggests: jq, git
 Homepage: http://goc8ycli.netlify.app
 Priority: optional
 Section: utils
-Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.22.2_armel.deb
-Size: 6606238
-SHA256: d3d39ad1d3822f1375c7443cdc1944355b7e0232ce114974c2116f91beaac5f4
-SHA1: ed99d8e8291586fab05ced07c318e1a53a4d8c04
-MD5sum: 72af93ba7fcd60c7705fdf200680c9b1
+Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.22.3_armel.deb
+Size: 6622526
+SHA256: 000188fe01329a1ce4a4ba95d0f42be9cdbbd4556ec8b4ec3fe5b131944ba5fb
+SHA1: 8ac63291f7c68b5602ca754bd77737976c3f6950
+MD5sum: fe810ec81ff2a556c52c00d0f7890b2b
 Description: Cumulocity's unofficial command line tool
 
