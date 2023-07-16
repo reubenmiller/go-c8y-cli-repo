@@ -1,5 +1,5 @@
 Package: go-c8y-cli
-Version: 2.35.0
+Version: 2.35.1
 Architecture: armhf
 Maintainer: Reuben Miller <reuben.d.miller@gmail.com>
 Installed-Size: 19800
@@ -7,10 +7,10 @@ Suggests: jq, git
 Homepage: http://goc8ycli.netlify.app
 Priority: optional
 Section: utils
-Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.35.0_armhf.deb
-Size: 6612300
-SHA256: 0b5e8c822bcb931b933387a4af4a94e48814797b052eca96bb8d726d9903e5b1
-SHA1: dc1a1ff116aafb7e159f5969c6eecebffdcda465
-MD5sum: 81a5d60b2490d53bac37429ca0036435
+Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.35.1_armhf.deb
+Size: 6612088
+SHA256: 5f57e3ae97e9b064e231d6e7377e3037d56af1492ebbcb3f79acb29230d19aac
+SHA1: e1ad31d9871482f24295b6bcd0c7ef259fd0e9fd
+MD5sum: 3da5d67755bbceccbe82eb1f7c02c2cf
 Description: Cumulocity's unofficial command line tool
 
