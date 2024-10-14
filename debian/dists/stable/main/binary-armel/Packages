@@ -1,16 +1,16 @@
 Package: go-c8y-cli
-Version: 2.43.3
+Version: 2.44.0
 Architecture: armel
 Maintainer: Reuben Miller <reuben.d.miller@gmail.com>
-Installed-Size: 26219
+Installed-Size: 26283
 Suggests: jq, git
 Homepage: http://goc8ycli.netlify.app
 Priority: optional
 Section: utils
-Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.43.3_armel.deb
-Size: 8089984
-SHA256: 58d4108c95d9c609224ba997aad1abdc1ed2d18a6e69b1313badd07a2bc32ccf
-SHA1: a9a603c7e2e694ed4cf041f59e5868c295f627a8
-MD5sum: 05602a57cbe0f90e8f1148c9e31e5c98
+Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.44.0_armel.deb
+Size: 8091320
+SHA256: 127ee2932dd2be986da3fe46873d876249a5d21bcb79d5bffbe33eaa085987df
+SHA1: 5a81cd646e38685f8ac8f3db22879317a48aab8d
+MD5sum: 226982a2c37fe66df34ed0ba81dc0000
 Description: Cumulocity IoT command line tool
 
