@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # https://www.linkedin.com/pulse/creating-alpine-linux-package-repository-afam-agbodike
 # https://www.erianna.com/creating-a-alpine-linux-repository/
