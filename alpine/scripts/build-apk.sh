@@ -40,3 +40,5 @@ index_packages () {
 index_packages "amd64" "x86_64"
 index_packages "armv7" "armv7"
 index_packages "386" "x86"
+index_packages "arm64" "aarch64"
+index_packages "armv6" "armhf"
