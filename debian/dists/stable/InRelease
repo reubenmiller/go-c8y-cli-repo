@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: reubenmiller.github.io/c8y-debian
 Label: reubenmiller.github.io/c8y-debian
 Codename: stable
-Date: Sat, 22 Mar 2025 09:57:30 UTC
+Date: Sat, 22 Mar 2025 13:14:28 UTC
 Architectures: amd64 arm64 armhf armel i386
 Components: main
 Description: Unofficial Cumulocity go-c8y-cli repository
@@ -58,17 +58,17 @@ SHA256:
  647896e6c3310e2bda1b2860208ed3c475a464fe9e08ab23927cc91a2205f3c8 175 main/binary-i386/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEbK8QjNXKxWRr4FPCIU28fVl4OcgFAmfeiYoACgkQIU28fVl4
-OcgVQQ//R8+HFjC3c4xtPq6dzhwH9U3a0SOWPn11dq5Ku8LMTVOuxoHzbrNZKHtw
-Q/hBZkHymHilzfEOdNVfBZwSuJFOvFRuCVkCBOSjpbFPyRLx8trPMjlgjZyh2HAe
-qUIXavQLhnChT0i4ya58zwsg8WkMNc8epsx6mOAQUMF1/5o99WqOxdm6EoqDR1f6
-dh7lxukXJJM+BztZw3YmZD3w3WVkGxguXlVan0SPPiWnN+s+hiij0PgdciRtSSk8
-YXSnrAPWgo517PjnafDJv7cWHF7PoFXBlaj0XV5OPneYSIHb/R0QEvLE2AAXGHmY
-/FIapZZdlwuopgAE2cV+pK5e7ArT1dTS8HSCIlgbvt0fK9+G/WEVd3InK0hZ81vq
-nx1aui08u36B4baSBAMV2j0fSaK/sbZmMpXWzakERaaLx0CkuNtrbAjoqnnmdq63
-iLsTI6pz52MDupTbKsbnORGYVOXlnO40Mk3yARp6iG1T0JBwTi3mSQHZpi6GEqXJ
-GiJ+pBzcBDAWuk+vgx7vraAyWHmfGOUmhLkzRlD0/K6UnL+b5sfaUN+JrtDIQdmi
-KkBOz9+Ta8Kwv8y13a4lLmwXB4h+Ggc1jhtTSm9Qae+ZaScpeZhJ5mw3CKfPmCKY
-37kRdVJwkkpyNc8QTgLFufuuD8yZ3Ix2LvcLruUTr7i8wdReNKA=
-=35+2
+iQIzBAEBCgAdFiEEbK8QjNXKxWRr4FPCIU28fVl4OcgFAmfet7QACgkQIU28fVl4
+OcjGnw/+NELUt7MtoR5fI4nrb8Qovq87F15p5mCTmJVeJO90BTyFKPA2/uj60xUl
+5UTbOz4/OuP5Li2SMr/mC5ocKRYMgabcqcMvysZlnO+uRi6B1B6EivIjshJNjfQi
+JKjwKRnjjx41LjEMrPQKVRTyMhFbcI6VkEr5tQFlo0/aX/WCAmjYlFQL02D0K/Hs
+XTRNeNJyL4Goaem8r8mf9Q0Q0Pyse2otDKDzwhvVLHjGTs0Tsw0TGVmY4L8wYEfp
+2AIBJQ/49LZH4KUuEkmZ2QWLLoerrtBiAp727j0HcTK3DqpXYa0wqgceGywqZWxf
+Vq7P/IT6b9zJ/1vjvpV3u90YXw7QlVZ9DaB26F4LiV3yLJpNkpPjFGL05kza4xHK
+rwLJTVsXniqlCYcmHtRBFW2E8J20I0UB9u4Sb7ArtJ7xyKGR/0NmXobAZKkHNQLC
+1mPaxby4cZ9xSaQQA+u5slA2UfjpkuyQ4t4J+JgZoFXPo22wp5VOHOZizD//3l0T
+y3xAcYTYkNwy8/FLW/QRnyAVpkrcLIew4swicT1VGzrPiTmujw352aFo3e4AZ+uP
+B8bNY6BziwsFkoHer/ccB7gq1WgNxIqz4iVN8bb6kv5rWpvrlRJYzwZbMPu2khho
+RVC/seGLn95gZEYR68IvaOcCaICz35XWpQe+jesyS5K2PBj2oPE=
+=AJQD
 -----END PGP SIGNATURE-----
