@@ -1,16 +1,17 @@
 Package: go-c8y-cli
-Version: 2.51.5
+Version: 2.52.0
 Architecture: i386
+License: MIT
 Maintainer: Reuben Miller <reuben.d.miller@gmail.com>
-Installed-Size: 28582
+Installed-Size: 28769
 Suggests: jq, git
 Homepage: http://goc8ycli.netlify.app
 Priority: optional
 Section: utils
-Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.51.5_i386.deb
-Size: 8580424
-SHA256: fb766d62b357f814da615deae13eb109e1fba8ff239310c460a40a846e5e2904
-SHA1: bec7c20657767f0001ad48b6c14dae2a1d29c970
-MD5sum: 42f8f37a4773b0bd4f8a73683aae73dc
+Filename: pool/main/g/go-c8y-cli/go-c8y-cli_2.52.0_i386.deb
+Size: 8615636
+SHA256: e0eb350f3d3c4832c981b410c4fcd103f126aed6317ff9951badcc99bd7d8944
+SHA1: 10bee9338312d967f342a856e494576ec74000d7
+MD5sum: f02c255fe1bb1dfcb74a0970d5d6da8c
 Description: Cumulocity command line tool
 
