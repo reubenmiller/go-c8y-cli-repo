@@ -1,7 +1,7 @@
-FROM alpine:3.15
+FROM alpine:3.24
 
 RUN apk add gcc abuild bash --no-cache
 ENV RSA_PRIVATE_KEY=
 VOLUME [ "/repo" ]
 
-CMD "/repo/scripts/build-apk.sh"
+CMD ["/repo/scripts/build-apk.sh"]

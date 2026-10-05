@@ -31,7 +31,7 @@ index_packages () {
         mv "$apk_file" "$CURRENT_BASE/${new_name}.apk"
     done
 
-    apk index -o "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE"/*.apk
+    apk index --allow-untrusted -o"$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE"/*.apk
     cp -f "$CURRENT_BASE/APKINDEX.unsigned.tar.gz" "$CURRENT_BASE/APKINDEX.tar.gz"
 
     abuild-sign -k "$RSA_KEY_FILE" "$CURRENT_BASE/APKINDEX.tar.gz"
